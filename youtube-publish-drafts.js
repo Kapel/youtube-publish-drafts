@@ -5,12 +5,12 @@
     // ~ GLOBAL CONFIG
     // -----------------------------------------------------------------
     const MODE = 'publish_drafts'; // 'publish_drafts' / 'sort_playlist';
-    const DEBUG_MODE = true; // true / false, enable for more context
+    const DEBUG_MODE = false; // true / false, enable for more context
     // -----------------------------------------------------------------
     // ~ PUBLISH CONFIG
     // -----------------------------------------------------------------
-    const MADE_FOR_KIDS = false; // true / false;
-    const VISIBILITY = 'Public'; // 'Public' / 'Private' / 'Unlisted'
+    const MADE_FOR_KIDS = true; // true / false;
+    const VISIBILITY = 'Unlisted'; // 'Public' / 'Private' / 'Unlisted'
     // -----------------------------------------------------------------
     // ~ SORT PLAYLIST CONFIG
     // -----------------------------------------------------------------
@@ -24,25 +24,6 @@
     };
     // END OF CONFIG (not safe to edit stuff below)
     // -----------------------------------------------------------------
-
-    // Art by Joan G. Stark
-    // .'"'.        ___,,,___        .'``.
-    // : (\  `."'"```         ```"'"-'  /) ;
-    //  :  \                         `./  .'
-    //   `.                            :.'
-    //     /        _         _        \
-    //    |         0}       {0         |
-    //    |         /         \         |
-    //    |        /           \        |
-    //    |       /             \       |
-    //     \     |      .-.      |     /
-    //      `.   | . . /   \ . . |   .'
-    //        `-._\.'.(     ).'./_.-'
-    //            `\'  `._.'  '/'
-    //              `. --'-- .'
-    //                `-...-'
-
-
 
     // ----------------------------------
     // COMMON  STUFF
